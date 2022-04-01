@@ -27,5 +27,5 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            felipesreis/retten-potatoes:latest
-            felipesreis/retten-potatoes:${{ github.run_number }}
+            felipesreis/rotten-potatoes:latest
+            felipesreis/rotten-potatoes:${{ github.run_number }}
